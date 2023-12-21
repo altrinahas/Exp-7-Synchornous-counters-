@@ -1,3 +1,6 @@
+## NAME:ALTRIN AHAS A
+## REGISTER NUMBER:23011604
+
 # Exp-6-Synchornous-counters - up counter and down counter 
 ### AIM: To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
@@ -46,43 +49,78 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+
+1.Create a new project in Quartus2 software .
+2.Name the project as uc for upcounter and dc for down counter.
+3.Create a new verilog hdl file in the project file.
+4.Name the module declare as dc and uc for down counter and upcounter.
+5.Within the module declare input and output variables.
+6.Create a loop using if-else with condition parameter as reset.
+7.End the loop.
+8.End the module
 
 
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-
-
-
-
-
+UP COUNTER
+```
+module exp_6(clk, A);
+input clk;
+output reg [2:0]A;
+always @(posedge clk)
+begin
+	A[2]=(((A[0])&(A[1]))^A[2]);
+	A[1]=(A[0])^A[1];
+	A[0]=A[0]^1;
+end
+endmodule
+```
+DOWN COUNTER
+```
+module exp_5__df(clk,A);
+input clk;
+output reg [2:0]A;
+always @(posedge clk)
+begin
+	A[2]=(((~A[0])&(~A[1]))^A[2]);
+	A[1]=(~A[0])^A[1];
+	A[0]=1^A[0];
+end 
+endmodule
+```
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+UP COUNTER
 
+![292061893-29510859-d7a3-4e7f-9ebc-90a744152b77](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/61abc557-1ca3-41f3-8ddb-e02f041d725c)
 
+DOWN COUNTER
 
+![292062968-fea1802c-e92a-4264-86d8-1f3c32f82f18](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/070c8a8f-937a-4cec-be73-38909c170d18)
 
+### TIMING DIGRAMS FOR COUNTER
 
+UP COUNTER
 
+![292063285-18a45e9a-b575-46d5-9b74-5aabc2a1bb1c](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/c2f70642-8617-41bc-9023-1e51858499bc)
 
+DOWN COUNTER
 
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
+![292064276-eb6058a4-54a5-4141-ad64-9b8e00848280](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/6e070069-1189-476a-85af-6c6549a972b0)
 
 
 ### TRUTH TABLE 
 
+UP COUNTER
 
+![292091932-764d284f-fe0f-4a18-96ee-8c21ab01d148](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/97b66659-f7f0-4781-907a-856da9a48b49)
 
+DOWN COUNTER
 
+![292091976-569c5ef1-f196-46f2-b01b-a8efe3f36ce9](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/929e71ec-dc4c-46b1-a108-41de3ac2bc1f)
 
+## RESULTS
+Thus synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
 
 ### RESULTS 
