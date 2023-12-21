@@ -62,7 +62,7 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 ### PROGRAM 
-UP COUNTER
+## UP COUNTER
 ```
 module exp_6(clk, A);
 input clk;
@@ -75,7 +75,7 @@ begin
 end
 endmodule
 ```
-DOWN COUNTER
+## DOWN COUNTER
 ```
 module exp_5__df(clk,A);
 input clk;
@@ -91,32 +91,32 @@ endmodule
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
-UP COUNTER
+## UP COUNTER
 
 ![292061893-29510859-d7a3-4e7f-9ebc-90a744152b77](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/61abc557-1ca3-41f3-8ddb-e02f041d725c)
 
-DOWN COUNTER
+## DOWN COUNTER
 
 ![292062968-fea1802c-e92a-4264-86d8-1f3c32f82f18](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/070c8a8f-937a-4cec-be73-38909c170d18)
 
 ### TIMING DIGRAMS FOR COUNTER
 
-UP COUNTER
+## UP COUNTER
 
 ![292063285-18a45e9a-b575-46d5-9b74-5aabc2a1bb1c](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/c2f70642-8617-41bc-9023-1e51858499bc)
 
-DOWN COUNTER
+## DOWN COUNTER
 
 ![292064276-eb6058a4-54a5-4141-ad64-9b8e00848280](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/6e070069-1189-476a-85af-6c6549a972b0)
 
 
 ### TRUTH TABLE 
 
-UP COUNTER
+## UP COUNTER
 
 ![292091932-764d284f-fe0f-4a18-96ee-8c21ab01d148](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/97b66659-f7f0-4781-907a-856da9a48b49)
 
-DOWN COUNTER
+## DOWN COUNTER
 
 ![292091976-569c5ef1-f196-46f2-b01b-a8efe3f36ce9](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/929e71ec-dc4c-46b1-a108-41de3ac2bc1f)
 
