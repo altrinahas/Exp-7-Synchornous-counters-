@@ -93,34 +93,35 @@ endmodule
 
 ## UP COUNTER
 
-![292061893-29510859-d7a3-4e7f-9ebc-90a744152b77](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/61abc557-1ca3-41f3-8ddb-e02f041d725c)
+![293352002-2337b000-a10a-4701-9e7a-039e4de6bd42](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/dadf66da-fab9-4a50-86ef-e6e9ef7135b7)
+
 
 ## DOWN COUNTER
 
-![292062968-fea1802c-e92a-4264-86d8-1f3c32f82f18](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/070c8a8f-937a-4cec-be73-38909c170d18)
+![293352102-6efdadd7-5d06-46c1-9bf4-54b0e39e6e4d](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/48b8c5f0-af58-4fb1-98c6-a4abc7622b44)
+
 
 ### TIMING DIGRAMS FOR COUNTER
 
 ## UP COUNTER
 
-![292063285-18a45e9a-b575-46d5-9b74-5aabc2a1bb1c](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/c2f70642-8617-41bc-9023-1e51858499bc)
+![293351796-7edc3d1b-8a7d-4803-a44c-ad0f47da6941](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/98c447d7-12ab-4625-9a8f-9eca27662053)
+
 
 ## DOWN COUNTER
 
-![292064276-eb6058a4-54a5-4141-ad64-9b8e00848280](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/6e070069-1189-476a-85af-6c6549a972b0)
-
+![293352248-64fd4217-35c6-47c9-9a77-c19346e38be0](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/b036227a-86e4-49da-981b-5d02d1d9da8a)
 
 ### TRUTH TABLE 
 
 ## UP COUNTER
 
-![292091932-764d284f-fe0f-4a18-96ee-8c21ab01d148](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/97b66659-f7f0-4781-907a-856da9a48b49)
+![293351925-d5e809ac-c593-4471-b9cf-25ea4d19f930](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/64792962-b0d6-4f6e-8d9e-9bd25cbb413c)
+
 
 ## DOWN COUNTER
 
-![292091976-569c5ef1-f196-46f2-b01b-a8efe3f36ce9](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/929e71ec-dc4c-46b1-a108-41de3ac2bc1f)
+![293352160-a1819724-71b9-4f9a-9600-445d2de493ad](https://github.com/altrinahas/Exp-7-Synchornous-counters-/assets/145980038/7aadac0a-dc06-4e9e-bcb5-4fceaf4cd57c)
 
 ## RESULTS
-Thus synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
-
-### RESULTS 
+Thus synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verif
